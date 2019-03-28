@@ -42,8 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AverageWether.cs" />
+    <Compile Include="CurrentWether.cs" />
+    <Compile Include="Interfaces\IObservable.cs" />
+    <Compile Include="Interfaces\IObserver.cs" />
+    <Compile Include="Interfaces\IWeather.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WetherStation.cs" />
+    <Compile Include="WetherStationDTO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
